@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    background-color: #111111;
+    color: #dce0e4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app-main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+textarea {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+}
+
+input {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px 8px;
+}
+
+.app-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-section:not(:first-child) {
+    margin-top: 24px;
+}
+
+.btn {
+    border-radius: 4px;
+    color: #0f0f0c;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.instagram-btn {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.btn:disabled {
+    background-color: #494949;
+    color: #ccc;
+}
+
+.btn:disabled:hover {
+    cursor: not-allowed;
+}
+
+.btn:not(:disabled):hover {
+    filter: brightness(0.9);
+}
+
+.action-btn {
+    background-color: #2d88ff;
+    margin-top: 8px;
+}
